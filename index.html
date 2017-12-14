@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Google</title>
+  <link href="./img/googleg_lodp.ico" rel="shortcut icon">
+  <link rel="stylesheet" href="./css/styles.css">
+  <script src="./js/libs/jquery-3.2.1.min.js"></script>
+  <script src="./js/main.js"></script>
+</head>
+<body>
+  <div class="wrapper">
+    <header>
+      <div class="header-left-mob">
+        <div class="menu-mob-icon">
+          <svg style="fill:#757575;width:24px;height:24px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0 0h24v24H0z" fill="none"></path>
+            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path>
+          </svg>
+        </div>
+        <a class="active" href="#">Все</a>
+        <a href="#">Картинки</a>
+      </div>
+      <div class="header-block">
+        <a href="#" class="mail header-link">Почта</a>
+        <a href="#" class="pic header-link">Картинки</a>
+        <a href="#" class="menu-img"></a>
+        <a href="#" class="alerts"></a>
+        <button class="enter">Войти</button>
+      </div>
+    </header>
+    <div class="main-block">
+      <img class="logo" src="./img/google-logo.png" alt="logo">
+      <div class="search-wrapper">
+        <form action="#" method="get">
+          <input type="text" class="main-search" id="search-input">
+          <button class="mob-search-action-btn"><span class="search-icon-mob"></span></button>
+          <div class="search-images">
+            <a href="#" class="keyboard-link">
+              <span class="keyboard"></span>
+              <div class="hint">Экранная клавиатура</div>
+            </a>
+            <a href="#" class="microphone-link">
+              <span class="microphone"></span>
+              <div class="hint">Голосовой поиск</div>
+            </a>
+          </div>
+          <div class="search-result" id="result">
+          <ul>
+            <li class="request search-result-row">
+              <span class="result-text">Мой запрос</span>
+              <a href="#" class="delete-search-result">
+                <span class="delete">Удалить</span>
+                <span class="delete-icon">×</span>
+              </a>
+            </li>
+            <li class="request search-result-row">
+              <span class="result-text">Мой запрос</span>
+              <a href="#" class="delete-search-result">
+                <span class="delete">Удалить</span>
+                <span class="delete-icon">×</span>
+              </a>
+            </li>
+            <li class="request search-result-row">
+              <span class="result-text">Мой запрос</span>
+              <a href="#" class="delete-search-result">
+                <span class="delete">Удалить</span>
+                <span class="delete-icon">×</span>
+              </a>
+            </li>
+          </ul>
+          <div class="search-result-buttons">
+            <input class="result-button" type="submit" value="Поиск в Google"><!--
+          --><input class="result-button" type="button" value="Мне повезёт!"> 
+          </div>
+        </div>
+        </form>
+      </div>
+      <div class="search-btns">
+        <input class="btn-search" value="Поиск в Google" aria-label="Поиск в Google" name="btnK" type="submit"><!--
+          --><input class="btn-search" value="Мне повезёт!" aria-label="Мне повезёт!" name="btnI" type="submit">
+      </div>
+      <div class="lang">
+        Сервисы Google доступны на разных языках: <a href="#">Беларуская</a>
+      </div>
+    </div>
+    <footer>
+      <div class="footer-line footer-line-first">Беларусь</div>
+      <div class="footer-line footer-line-second">
+        <div class="f-l-left">
+          <a href="#" class="footer-link ad-link">Реклама</a>
+          <a href="#" class="footer-link business-link">Для бизнеса</a>
+          <a href="#" class="footer-link about-link">Все о Google</a>
+        </div>
+        <div class="f-l-right">
+          <a href="#" class="footer-link confidentiality-link">Конфиденциальность</a>
+          <a href="#" class="footer-link conditions-link">Условия</a>
+          <a href="#" class="footer-link settings-link">Настройки</a>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
